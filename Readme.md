@@ -1,18 +1,21 @@
 # FORK
-forked from afriggeri/cv[https://github.com/afriggeri/cv]
+forked from [afriggeri/cv](https://github.com/afriggeri/cv)
 # 中文设置
-friggeri-cv.cls
+[friggeri-cv.cls](friggeri-cv.cls)
 加入了
+
     \RequirePackage{xunicode}
     \RequirePackage{xeCJK}
+
 # 字体设置
 
     \setCJKmainfont{STFangsong}
     \setCJKsansfont{STHeiti Light}
     \setCJKmonofont{WenQuanYi Micro Hei Mono}
 
-文泉驿字体自行安装 from https://github.com/layerssss/wqy
-xits-math字体自行安装 from https://github.com/khaledhosny/xits-math
+文泉驿字体自行安装 from [this link](https://github.com/layerssss/wqy)
+
+xits-math字体自行安装 from [this link](https://github.com/khaledhosny/xits-math)
 
 # About
 Latest version of my CV, typesetted in Helvetica and using colors inspired by Monokai (there is an `print` option which renders in black and white, and reverts the header to dark on light, if printing on paper is needed).
