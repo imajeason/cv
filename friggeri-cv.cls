@@ -48,6 +48,8 @@
 
 \RequirePackage[quiet]{fontspec}
 \RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage{xunicode}
+\RequirePackage{xeCJK}
 
 \newfontfamily\bodyfont[]{Helvetica Neue}
 \newfontfamily\thinfont[]{Helvetica Neue UltraLight}
@@ -55,7 +57,9 @@
 
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
-
+\setCJKmainfont{STFangsong}
+\setCJKsansfont{STHeiti Light}
+\setCJKmonofont{WenQuanYi Micro Hei Mono}
 \setmathfont{XITS Math}
 
 %%%%%%%%%%
