@@ -1,132 +1,84 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
-\addbibresource{bibliography.bib}
 
 \begin{document}
 \header{潘}{兴华}
-       {social network analyst}
+       {{\color{orange}杂}牌工程师}
 
 
 % In the aside, each new line forces a line break
 \begin{aside}
-  \section{about}
-    31 rue Smith
-    69002 Lyon
-    France
+  \section{About}
+    北京市 海淀区
+    +86 151 1024 5471
     ~
-    \href{mailto:adrien@friggeri.net}{adrien@friggeri.net}
-    \href{http://friggeri.net}{http://friggeri.net}
-    \href{http://facebook.com/adrien}{fb://adrien}
-  \section{languages}
-    bilingual french/english
-    spanish \& italian notions
-  \section{programming}
-    {\color{red} $\varheartsuit$} JavaScript
-    (ES5, node.js)
-    Python, C, OCaml
-    CSS3 \& HTML5
+    \href{mailto:scupython@gmail.com}{scupython@gmail.com}
+    \href{http://panxhorn.me}{http://panxhorn.me}
+    \href{https://github.com/scupython/}{github://scupython}
+  \section{Languages}
+    English (CET-6)
+  \section{Programming}
+    {\color{red} $\varheartsuit$} Python (flask)
+    JavaScript (Emberjs)
+    C/C++ 
+    CSS \& HTML
 \end{aside}
 
-\section{interests}
-
-complex networks, social networks, community detection, community structure,
-overlapping communities, information diffusion, viral marketing, social
-inference, recommendation, data mining
-
-\section{education}
+\section{Edu 教育背景}
 
 \begin{entrylist}
   \entry
-    {since 2009}
-    {Ph.D. {\normalfont candidate in Computer Science}}
-    {DNET/INRIA, LIP/ÉNS de Lyon}
-    {\emph{A Quantified Theory of Social Cohesion.}}
+    {09-12}
+    {硕士研究生}
+    {中国石油大学 信息学院}
+    {软件工程}
   \entry
-    {2007–2008}
-    {M.Sc. magna cum laude}
-    {IXXI, École Normale Supérieure de Lyon}
-    {Majoring in Computer Science\\
-    Specialization in Complex Systems}
-  \entry
-    {2006–2007}
-    {B.Sc. magna cum laude}
-    {École Normale Supérieure de Lyon}
-    {Majoring in Computer Science}
-  \entry
-    {2003–2006}
-    {Classes Préparatoires aux Grandes Écoles}
-    {Lycée Fénelon, Lycée Louis le Grand, Paris}
-    {Preparation for national competitive entrance exams to leading French ``grandes écoles'', specializing in mathematics and physics.}
-  \entry
-    {2003}
-    {French Baccalauréat S. with honors}
-    {Lycée Louis le Grand, Paris}
-    {Specialization in mathematics and physics}
+    {03–07}
+    {学士}
+    {四川大学 化学学院}
+    {应用化学}
 \end{entrylist}
 
-\section{experience}
+\section{Exp 工作经历}
 
 \begin{entrylist}
   \entry
-    {02–07 2009}
-    {LIP6/CNRS, Paris}
-    {Research Internship.}
-    {\emph{Visualization of complex networks.}}
+    {11/11 至今}
+    {实习+系统工程师}
+    {智明星通/行云, 北京}
+    {\emph{Openstack (Essex)}\\
+      Nova, Glance, Horizon, Keystone, Volume\\
+      \emph{Web运维平台}\\
+      Web后端: Nginx, Uwsgi, Python(in virtualenv), Flask, Mysql \\
+      Web前端：Bootstrap, JQuery, EmberJS
+    }
   \entry
-    {06–08 2008}
-    {ISCPIF/CNRS, Paris}
-    {Research Internship.}
-    {\emph{Diffusion in the Blogosphere. Happy Flu.}}
-  \entry
-    {06–08 2007}
-    {LIP6/CNRS, Paris}
-    {Research Internship.}
-    {\emph{Kernels in real world networks.}}
-  \entry
-    {07–08 2005}
-    {\href{http://www.kelkoo.com}{Kelkoo.com}}
-    {Summer job.}
-    {\emph{Creation of a keyword generator for Google Adwords.}}
-  \entry
-    {07–08 2004}
-    {\href{http://www.monsieurprix.com}{MonsieurPrix.com}}
-    {Summer job.}
-    {\emph{Development of an e-commerce product indexation spider.}}
+    {10/8-11/8}
+    {实习}
+    {中国石油大学, 北京}
+    {\emph{油藏资源管理系统开发}\\
+      Java (Spring + Hibernate), Flex 3
+    }
 \end{entrylist}
 
-\section{applications}
-
+\section{Skp 技能点}
 \begin{entrylist}
   \entry
-    {2012}
-    {Who did I forget ?}
-    {\href{http://whodidiforget.com}{whodidiforget.com}}
-    {Guest list recommendation for Facebook events based on friends already attending the event.}
+    {\emph{Linux}}
+    {\normalfont{熟练Linux操作，熟悉Shell编程, 掌握Sed, Awk。了解内核配置及常用优化。}}{}{}
   \entry
-    {2011}
-    {Fellows}
-    {\href{http://fellows-exp.com}{fellows-exp.com}}
-    {Automatic community detection among Facebook Friends in order to validate the \emph{cohesion} measure, creation of friend lists.}
+    {\emph{Python}}
+    {\normalfont{Flask微框架，Flask-Admin, Flask-login, Flask-Principal, SQLAlchemy}}{}{}
   \entry
-    {2008}
-    {Happy Flu}
-    {\href{http://happyflu.com}{happyflu.com}}
-    {Experiment aimed to measure viral spreading of content across the blogosphere.}
+    {\emph{English}}
+    {\normalfont{CET-6，熟练阅读专业文献资料，基本英文写作。}}{}{}
+  \entry
+    {\emph{其他}}
+    {\normalfont{JavaScript, CSS/HTML, C/C++, Qt, MySQL, \LaTeX, PHP, Git}}{}{}
 \end{entrylist}
 
-\section{publications}
-
-
-\printbibsection{article}{article in peer-reviewed journal}
-\begin{refsection}
-  \nocite{*}
-  \printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
-\end{refsection}
-\begin{refsection}
-  \nocite{*}
-  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
-\end{refsection}
-\printbibsection{misc}{other publications}
-\printbibsection{report}{research reports}
-
+\section{Ent 兴趣爱好}
+  Linux Kernel, LLVM, Android, FP\\
+  魔兽世界\\
+  Google Plus, Douban(FM), 163. 
 \end{document}
