@@ -73,7 +73,8 @@
   \thinfont%
   \color{white}%
 }
-
+\RequirePackage{tabularx}
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3.3cm] (box) at (current page.north){};
@@ -144,7 +145,7 @@
 \newcommand{\entry}[4]{%
   #1&\parbox[t]{11.8cm}{\textbf{#2}\hfill
     {\footnotesize\addfontfeature{Color=lightgray} #3}}\\
-    \multicolumn{2}{l}{\begin{minipage}[t]{13.9cm}\small{#4\vspace{\parsep}}\end{minipage}}\\
+    \multicolumn{2}{l}{\begin{minipage}[t]{13.9cm}\small{#4}\end{minipage}\vspace{\parsep}}\\
   }
 
 
