@@ -136,18 +136,16 @@
 
 \setlength{\tabcolsep}{0pt}
 \newenvironment{entrylist}{%
-  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}ll@{\extracolsep{\fill}}}
 }{%
   \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
 \newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{%
-    \textbf{#2}%
-    \hfill%
-    {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
-    #4\vspace{\parsep}%
-  }\\}
+  #1&\parbox[t]{11.8cm}{\textbf{#2}\hfill
+    {\footnotesize\addfontfeature{Color=lightgray} #3}}\\
+    \multicolumn{2}{l}{\begin{minipage}[t]{13.9cm}\small{#4\vspace{\parsep}}\end{minipage}}\\
+  }
 
 
 %%%%%%%%%%%%%%
