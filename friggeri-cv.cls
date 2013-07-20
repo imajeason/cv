@@ -54,12 +54,9 @@
 \newfontfamily\bodyfont[]{Helvetica Neue}
 \newfontfamily\thinfont[]{Helvetica Neue UltraLight}
 \newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
-
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
-\setCJKmainfont{STFangsong}
-\setCJKsansfont{STHeiti Light}
-\setCJKmonofont{WenQuanYi Micro Hei Mono}
+\setCJKmainfont[BoldFont=STHeiti]{WenQuanYi Micro Hei Mono}
 \setmathfont{XITS Math}
 
 %%%%%%%%%%
@@ -142,10 +139,10 @@
   \end{tabular*}
 }
 \renewcommand{\bfseries}{\headingfont\color{headercolor}}
-\newcommand{\entry}[4]{%
-  #1&\parbox[t]{11.8cm}{\textbf{#2}\hfill
+\newcommand{\entry}[5]{%
+  #1&\parbox[t]{10.8cm}{\textbf{#2}\hfill
     {\footnotesize\addfontfeature{Color=lightgray} #3}}\\
-    \multicolumn{2}{l}{\begin{minipage}[t]{13.9cm}\small{#4}\end{minipage}\vspace{\parsep}}\\
+    #4&\begin{minipage}[t]{10.8cm}{\small{#5}}\end{minipage}\\
   }
 
 
