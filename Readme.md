@@ -9,9 +9,8 @@ forked from [afriggeri/cv](https://github.com/afriggeri/cv)
 
 # 字体设置
 
-    \setCJKmainfont{STFangsong}
-    \setCJKsansfont{STHeiti Light}
-    \setCJKmonofont{WenQuanYi Micro Hei Mono}
+    \setCJKmainfont{WenQuanYi Micro Hei Mono}
+
 
 文泉驿字体自行安装 from [this link](https://github.com/layerssss/wqy)
 
